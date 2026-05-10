@@ -1,7 +1,7 @@
 import google.generativeai as genai
 from PIL import Image
 
-genai.configure(api_key="AIzaSyBDg78T3FJvGgUkgbtO7kLSy_EpKHc6Mx8")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 img = Image.open('chart_screenshot.JPG')
